@@ -17,7 +17,7 @@ void print_array(int arr[], int size) {
 }
 
 int main(void) {
-    int arr[] = {5, 2, 8, 1, 9};
+    int arr[] = {5, 2, 8, 1, 9, 3};
     int size = sizeof(arr) / sizeof(arr[0]);
 
     qsort(arr, size, sizeof(int), cmp_asc);
